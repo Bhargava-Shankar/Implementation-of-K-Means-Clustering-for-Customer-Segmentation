@@ -15,12 +15,13 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 4. Re-center clusters and repeat until stable.
 
 ## Program:
+
+```c++
 /*
 Program to implement the K Means Clustering for Customer Segmentation.
 Developed by: Bhargava S
 RegisterNumber:  212221040029
 */
-```c++
 import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans
